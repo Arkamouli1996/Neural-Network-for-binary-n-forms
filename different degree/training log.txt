@@ -1,0 +1,43 @@
+PS C:\Users\arkap\OneDrive\Documents\GitHub\machine-learning-math> & C:/Users/arkap/AppData/Local/Python/pythoncore-3.14-64/python.exe "c:/Users/arkap/OneDrive/Documents/GitHub/machine-learning-math/different degree/semistability_nn.py"
+Epoch   1/500 | loss=0.9927 | train_acc=50.9% | test_acc=49.9%
+Epoch  50/500 | loss=0.6655 | train_acc=61.5% | test_acc=61.6%
+Epoch 100/500 | loss=0.6171 | train_acc=71.5% | test_acc=71.0%
+Epoch 150/500 | loss=0.5589 | train_acc=76.7% | test_acc=76.0%
+Epoch 200/500 | loss=0.4891 | train_acc=81.9% | test_acc=80.9%
+Epoch 250/500 | loss=0.4072 | train_acc=86.9% | test_acc=85.2%
+Epoch 300/500 | loss=0.3259 | train_acc=90.9% | test_acc=89.3%
+Epoch 350/500 | loss=0.2583 | train_acc=94.0% | test_acc=92.5%
+Epoch 400/500 | loss=0.2080 | train_acc=95.6% | test_acc=94.2%
+Epoch 450/500 | loss=0.1724 | train_acc=96.3% | test_acc=95.0%
+Epoch 500/500 | loss=0.1473 | train_acc=96.7% | test_acc=95.4%
+
+Final:
+Train accuracy: 96.70%
+Test  accuracy: 95.43%
+Saved plots:
+ - plots\sample_construction_20251026-020415.png
+ - plots\training_data_pca_20251026-025816.png
+ - plots\training_curves_20251026-025818.png
+ - plots\monomial_focus_20251026-025819.png
+ - plots\random_unstable_probe_20251026-025819.png
+Degree linear-probe acc (penultimate features): train=100.00%, test=100.00%
+Mask ablation accuracies:
+ - baseline_acc: 95.43%
+ - zero_mask_acc: 49.97%
+ - shuffled_mask_acc: 85.83%
+ - random_degree_mask_acc: 85.78%
+[deg4-only] Epoch   1/500 | loss=0.7251 | train_acc=50.1% | test_acc=49.6%
+[deg4-only] Epoch  50/500 | loss=0.6093 | train_acc=74.4% | test_acc=72.9%
+[deg4-only] Epoch 100/500 | loss=0.5187 | train_acc=79.2% | test_acc=77.0%
+[deg4-only] Epoch 150/500 | loss=0.4225 | train_acc=86.2% | test_acc=83.8%
+[deg4-only] Epoch 200/500 | loss=0.3229 | train_acc=91.2% | test_acc=89.4%
+[deg4-only] Epoch 250/500 | loss=0.2414 | train_acc=95.1% | test_acc=93.2%
+[deg4-only] Epoch 300/500 | loss=0.1820 | train_acc=96.8% | test_acc=95.2%
+[deg4-only] Epoch 350/500 | loss=0.1413 | train_acc=97.4% | test_acc=95.7%
+[deg4-only] Epoch 400/500 | loss=0.1138 | train_acc=97.9% | test_acc=95.8%
+[deg4-only] Epoch 450/500 | loss=0.0944 | train_acc=98.2% | test_acc=95.9%
+[deg4-only] Epoch 500/500 | loss=0.0799 | train_acc=98.4% | test_acc=96.2%
+Saved degree-4-only figures:
+ - plots\training_curves_20251026-030347.png
+ - plots\monomial_focus_20251026-030348.png
+PS C:\Users\arkap\OneDrive\Documents\GitHub\machine-learning-math> 

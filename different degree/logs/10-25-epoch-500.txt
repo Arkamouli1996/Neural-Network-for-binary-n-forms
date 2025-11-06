@@ -1,0 +1,27 @@
+Epoch   1/500 | loss=0.9927 | train_acc=50.9% | test_acc=49.9%
+Epoch  50/500 | loss=0.6655 | train_acc=61.5% | test_acc=61.6%
+Epoch 100/500 | loss=0.6171 | train_acc=71.5% | test_acc=71.0%
+Epoch 150/500 | loss=0.5589 | train_acc=76.7% | test_acc=76.0%
+Epoch 200/500 | loss=0.4891 | train_acc=81.9% | test_acc=80.9%
+Epoch 250/500 | loss=0.4072 | train_acc=86.9% | test_acc=85.2%
+Epoch 300/500 | loss=0.3259 | train_acc=90.9% | test_acc=89.3%
+Epoch 350/500 | loss=0.2583 | train_acc=94.0% | test_acc=92.5%
+Epoch 400/500 | loss=0.2080 | train_acc=95.6% | test_acc=94.2%
+Epoch 450/500 | loss=0.1724 | train_acc=96.3% | test_acc=95.0%
+Epoch 500/500 | loss=0.1473 | train_acc=96.7% | test_acc=95.4%
+
+Final:
+Train accuracy: 96.70%
+Test  accuracy: 95.43%
+Saved plots:
+ - plots/sample_construction_20251025-134144.png
+ - plots/training_data_pca_20251025-135810.png
+ - plots/training_curves_20251025-135810.png
+ - plots/monomial_focus_20251025-135810.png
+ - plots/random_unstable_probe_20251025-135811.png
+Degree linear-probe acc (penultimate features): train=100.00%, test=100.00%
+Mask ablation accuracies:
+ - baseline_acc: 95.43%
+ - zero_mask_acc: 49.97%
+ - shuffled_mask_acc: 85.83%
+ - random_degree_mask_acc: 85.78%

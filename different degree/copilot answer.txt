@@ -1,0 +1,22 @@
+
+Used 1 reference
+Summarizing model use of mask...
+Here’s what those lines indicate:
+
+Degree linear-probe acc: 100% train/test
+The penultimate features encode the polynomial’s degree perfectly (linearly decodable). The network has learned/propagated degree info, very likely via the 9-D mask.
+
+baseline_acc: 95.43%
+Normal test accuracy with the true mask. Good performance.
+
+zero_mask_acc: 49.97%
+Dropping to chance when the mask is zeroed shows the model relies heavily on the mask. A zero mask is also out-of-distribution relative to training.
+
+shuffled_mask_acc: 85.83% and random_degree_mask_acc: 85.78%
+Giving the wrong mask hurts but does not destroy performance. The model still uses coefficient patterns to classify many cases, but correct degree info from the mask contributes ~10 percentage points vs baseline.
+
+Takeaways:
+
+The mask is a strong shortcut feature (degree is critical because the threshold is d/2).
+The representation preserves degree information exactly.
+If you want robustness or degree-invariance, train with mask corruption/ dropout, or remove the mask and/or add augmentation so the model can infer from coefficients alone (or pass degree explicitly as a separate, trusted input).
