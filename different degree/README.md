@@ -302,10 +302,4 @@ Notes, caveats, and suggestions
 
 Contact
 - Repository owner: Arkamouli1996 (GitHub handle)
-- Email (as in commit metadata): arkapointer@gmail.com
-
-If you want, I can:
-- Add a short wrapper to save and load model parameters to disk (np.savez / np.load), or
-- Produce a small requirements.txt with suggested pins for numpy and matplotlib based on your current environment (I can generate it from a pip freeze you provide).
-
-This README is directly derived from the program text and the included `training log.txt` for the run that produced the reported final metrics and plots. It intentionally quotes the code and the exact numbers used/reported in order to be as precise and reproducible as possible.
+- Email: arkapointer@gmail.com
