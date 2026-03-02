@@ -1,4 +1,4 @@
-# different degree — semistability experiments (precise README)
+# different degree — semistability experiments (README)
 
 This README documents the exact contents and how to reproduce the experiments in the `different degree` folder of the repository:
 https://github.com/Arkamouli1996/Neural-Network-for-binary-n-forms/tree/main/different%20degree
